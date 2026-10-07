@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #0c040b;
+  --bg-surface: #180a17;
+  --bg-surface-elevated: #240e21;
+  --bg-card: rgba(26, 11, 24, 0.75);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-active: rgba(225, 29, 72, 0.4);
+  --text-primary: #fdf2f8;
+  --text-secondary: #c084fc;
+  --text-muted: #a38299;
+  --accent-rose: #e11d48;
+  --accent-pink: #ec4899;
+  --accent-purple: #9333ea;
+  --accent-gold: #facc15;
+}
+
+body {
+  background: radial-gradient(circle at 20% 0%, #290d20 0%, #0d040c 50%, #080207 100%);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom Smooth Dark Burgundy Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d040c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #37142e;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #501d43;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(24, 10, 22, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-pill {
+  background: rgba(35, 14, 31, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Gradient Button Accent */
+.btn-gradient-price {
+  background: linear-gradient(105deg, #a82352 0%, #7c3aed 100%);
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-gradient-price:hover {
+  background: linear-gradient(105deg, #be185d 0%, #8b5cf6 100%);
+  box-shadow: 0 4px 20px rgba(190, 24, 93, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-gradient-hero {
+  background: linear-gradient(105deg, #e11d48 0%, #be185d 60%, #9333ea 100%);
+}
+
+.btn-gradient-hero:hover {
+  box-shadow: 0 6px 24px rgba(225, 29, 72, 0.45);
+  transform: translateY(-1px);
+}
+
+/* Category Tab Active */
+.tab-active {
+  background: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+}
+
+/* Ant Design Global Overrides for Dark Burgundy Theme */
+.ant-modal-content {
+  background: #190918 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important;
+}
+
+.ant-drawer-content {
+  background: #140713 !important;
+}
+
+.ant-input {
+  background: transparent !important;
+  color: #fdf2f8 !important;
+}
+
+/* Ant Design InputNumber full width globally */
+.ant-input-number,
+.ant-input-number-affix-wrapper,
+.ant-input-number-group-wrapper {
+  width: 100% !important;
+}
+
+.ant-input-number-input {
+  width: 100% !important;
+}
+
+.ant-form-vertical .ant-form-item-label,
+.ant-form-vertical .ant-form-item-label > label {
+  width: 100% !important;
+}
+
+/* Ant Design Table Dark Customization */
+.ant-table {
+  background: transparent !important;
+  color: #fdf2f8 !important;
+}
+
+.ant-table-thead > tr > th {
+  background: #190718 !important;
+  color: #f9a8d4 !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  text-transform: uppercase !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  color: #fdf2f8 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: rgba(225, 29, 72, 0.08) !important;
+}
+
+/* Ant Design Tabs Dark Customization */
+.ant-tabs-nav::before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+.ant-tabs-tab {
+  color: rgba(253, 242, 248, 0.6) !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #f43f5e !important;
+  font-weight: 700 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #e11d48 !important;
+}
+
+/* Ant Design Pagination Dark Customization */
+.ant-pagination .ant-pagination-item-active {
+  background: #e11d48 !important;
+  border-color: #e11d48 !important;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  color: #ffffff !important;
+}
+
+.ant-pagination .ant-pagination-item a {
+  color: rgba(253, 242, 248, 0.6) !important;
+}
+
+/* =========================================================
+   LINK & BUTTON TEXT COLOR NORMALIZATION (ANT DESIGN OVERRIDE)
+   ========================================================= */
+
+/* Ensure basic links inherit parent color unless explicitly styled */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Force pure white on all elements explicitly marked with text-white or inside buttons */
+.text-white,
+a.text-white,
+button.text-white,
+a.text-white:hover,
+a.text-white:focus,
+a.text-white:active,
+button.text-white:hover,
+button.text-white:focus,
+button.text-white:active,
+.btn-gradient-hero,
+.btn-gradient-price,
+.btn-gradient-hero a,
+.btn-gradient-price a,
+.btn-gradient-hero span,
+.btn-gradient-price span {
+  color: #ffffff !important;
+}
+
+/* Ensure SVG icons and child elements inherit white when parent has text-white */
+.text-white svg,
+a.text-white svg,
+button.text-white svg,
+.btn-gradient-hero svg,
+.btn-gradient-price svg {
+  color: #ffffff !important;
+  stroke: currentColor;
+}
+
+/* Ant Design modal/drawer link overrides */
+.ant-modal a.text-white,
+.ant-modal-content a.text-white,
+.ant-drawer a.text-white {
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   INFINITE MARQUEE SCROLL (RIGHT TO LEFT)
+   ========================================================= */
+@keyframes marquee-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee-infinite {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 120s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-infinite:hover {
+  animation-play-state: paused;
+}
+
+
+
