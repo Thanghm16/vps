@@ -5,6 +5,7 @@ import { getWebsiteSettingsFromDb } from '@/lib/db/settings';
 import LuckyWheelClientView from '@/components/lucky-wheel/LuckyWheelClientView';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata(): Promise<Metadata> {
   try {
