@@ -28,7 +28,7 @@ export default function FaqSection() {
       ),
       children: (
         <p className="text-xs sm:text-sm text-pink-200/70 leading-relaxed">
-          Tất cả tài khoản bán ra trên sàn đều được bảo hành 1 đổi 1 trong vòng 30 ngày nếu phát sinh tranh chấp hoặc thông tin không trùng khớp với ảnh chụp kho đồ. Đội ngũ hỗ trợ kỹ thuật trực tuyến 24/7 sẽ giải quyết khiếu nại trong vòng 15 phút.
+          Tất cả tài khoản bán ra trên sàn đều được bảo hành 1 đổi 1 nếu  thông tin không trùng khớp với ảnh chụp kho đồ. Đội ngũ hỗ trợ kỹ thuật trực tuyến 24/7.
         </p>
       ),
     },
@@ -41,7 +41,7 @@ export default function FaqSection() {
       ),
       children: (
         <p className="text-xs sm:text-sm text-pink-200/70 leading-relaxed">
-          Được 100%. Các tài khoản trên sàn đều ở trạng thái thông tin trắng (Garena trắng thông tin, Riot Games mail gốc, Facebook liên kết sạch). Sau khi nhận nick, bạn có thể vào trang quản lý chính thức của game để liên kết số điện thoại và email cá nhân của mình.
+          Được 100%. Các tài khoản trên sàn đều ở trạng thái thông tin sạch đảm bảo đổi được(Garena trắng thông tin-số đổi-giaomail ...vv, Google ). Sau khi nhận nick, bạn có thể vào trang quản lý chính thức của game để liên kết số điện thoại và email cá nhân của mình. Đối với tài khoản giao mail hoặc đổi số điện thoại thì sai khi mua liên hệ Admin để hỗ trợ thay thông tin
         </p>
       ),
     },
@@ -54,7 +54,7 @@ export default function FaqSection() {
       ),
       children: (
         <p className="text-xs sm:text-sm text-pink-200/70 leading-relaxed">
-          Chúng tôi hỗ trợ thanh toán qua số dư Ví tài khoản, quét mã VietQR tự động của tất cả các ngân hàng tại Việt Nam (xử lý sau 5 giây), ví điện tử MoMo, ZaloPay và thẻ cào điện thoại tự động.
+          Chúng tôi hỗ trợ thanh toán qua số dư Ví tài khoản, quét mã VietQR tự động của tất cả các ngân hàng tại Việt Nam (xử lý sau 5 giây), ví điện tử MoMo, ZaloPay.
         </p>
       ),
     },
@@ -71,7 +71,7 @@ export default function FaqSection() {
           Câu Hỏi Thường Gặp (FAQ)
         </h2>
         <p className="text-xs text-pink-200/60 mt-1">
-          Những câu hỏi phổ biến nhất của người mua nick lần đầu tại GameStore
+          Những câu hỏi phổ biến nhất của người mua nick lần đầu tại manhthang.shop
         </p>
       </div>
 
