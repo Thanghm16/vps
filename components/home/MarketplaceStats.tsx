@@ -14,7 +14,7 @@ export default function MarketplaceStats() {
       icon: ShieldCheck,
       value: '99.8%',
       label: 'Tỉ Lệ Hài Lòng',
-      desc: 'Cam kết 100% tài khoản trắng thông tin',
+      desc: 'Cam kết 100% tài khoản thông tin đẹp có thể đổi được',
       color: 'from-emerald-500 to-teal-400',
     },
     {
@@ -28,7 +28,7 @@ export default function MarketplaceStats() {
       icon: Award,
       value: '100%',
       label: 'Bảo Hành Đổi Trả',
-      desc: 'Bảo hành 1 đổi 1 hoặc hoàn tiền nhanh',
+      desc: 'Bảo hành 1 đổi 1 nếu acc không đúng như mô tả',
       color: 'from-purple-500 to-indigo-400',
     },
   ];
