@@ -6,25 +6,25 @@ export default function TrustSection() {
     {
       icon: Zap,
       title: 'Giao Nick Tự Động 24/7',
-      description: 'Nhận tài khoản và hướng dẫn đổi mật khẩu trong 30 giây.',
+      description: 'Nhận tài khoản trong 30 giây.',
       color: 'from-amber-500/20 to-rose-500/20 text-amber-400',
     },
     {
       icon: ShieldCheck,
-      title: '100% Thông Tin Trắng',
+      title: '100% Thông Tin Sạch',
       description: 'Tài khoản sạch, cam kết chính chủ, đổi được mọi thông tin liên kết.',
       color: 'from-emerald-500/20 to-teal-500/20 text-emerald-400',
     },
     {
       icon: RefreshCw,
-      title: 'Bảo Hành Đổi Trả Uy Tín',
-      description: 'Hỗ trợ 1 đổi 1 hoặc hoàn tiền nếu tài khoản phát sinh tranh chấp.',
+      title: 'Chính Sách Bảo Hành',
+      description: 'Hỗ trợ 1 đổi 1 trong lúc bên shop đang giữ acc.',
       color: 'from-purple-500/20 to-pink-500/20 text-purple-400',
     },
     {
       icon: Headphones,
       title: 'CSKH Trực Tuyến 24/7',
-      description: 'Đội ngũ hỗ trợ viên tận tình giải đáp qua Zalo, Messenger, Hotline.',
+      description: 'Đội ngũ hỗ trợ viên tận tình giải đáp qua Zalo.',
       color: 'from-rose-500/20 to-red-500/20 text-rose-400',
     },
   ];
