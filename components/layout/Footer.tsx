@@ -119,7 +119,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
         {
             icon: <ShieldCheck className="w-5 h-5 text-emerald-400" />,
             title: 'Bảo Hành Uy Tín 100%',
-            desc: 'Cam kết thông tin sạch, đổi trả 1-1 hoặc hoàn tiền 100% nếu có lỗi từ shop',
+            desc: 'Cam kết thông tin sạch, đổi trả 1-1 trong lúc bên shop đang giữ acc',
         },
         {
             icon: <Lock className="w-5 h-5 text-rose-400" />,
@@ -129,7 +129,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
         {
             icon: <Headphones className="w-5 h-5 text-purple-400" />,
             title: 'Hỗ Trợ Tận Tâm 24/7',
-            desc: 'Đội ngũ CSKH qua Zalo & Hotline túc trực phản hồi dưới 60 giây',
+            desc: 'Đội ngũ CSKH qua Zalo & Hotline 24/7',
         },
     ];
 
@@ -245,8 +245,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
                             bị tranh chấp hoặc có lỗi phát sinh từ thời điểm trước khi mua.
                         </li>
                         <li>
-                            <strong>Thời hạn bảo hành:</strong> Từ 7 đến 30 ngày tùy theo loại game và thông số niêm yết
-                            trên sản phẩm.
+                            <strong>Thời hạn bảo hành:</strong> Trong thời gian bên shop giữ acc.
                         </li>
                         <li>
                             <strong>Hỗ trợ đổi thông tin:</strong> Hướng dẫn khách hàng liên kết số điện thoại, email
@@ -278,7 +277,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
                         <div className="p-3 rounded-xl bg-black/40 border border-white/5">
                             <strong className="text-white block mb-1">Bước 3: Hoàn tiền ví tức thì</strong>
                             Sau khi xác nhận, toàn bộ số tiền đơn hàng sẽ được hoàn 100% vào số dư ví của quý khách để
-                            mua tài khoản khác hoặc rút về.
+                            mua tài khoản khác.
                         </div>
                     </div>
                 </div>
@@ -308,7 +307,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
                         </div>
                     </div>
                     <p className="text-xs text-pink-300/60">
-                        * Khách hàng thành viên VIP còn nhận được mã giảm giá Flash Sale lên tới 20% khi mua nick.
+                        * .
                     </p>
                 </div>
             ),
@@ -626,7 +625,7 @@ export default function Footer({ games: customGames }: FooterProps = {}) {
                             </li>
                             {[
                                 { label: 'Hướng dẫn mua nick 3 bước', topic: 'guide' as PolicyTopic },
-                                { label: 'Chính sách bảo hành 30 ngày', topic: 'warranty' as PolicyTopic },
+                                { label: 'Chính sách bảo hành', topic: 'warranty' as PolicyTopic },
                                 { label: 'Quy trình đổi trả & hoàn tiền', topic: 'refund' as PolicyTopic },
                                 { label: 'Bảng giá nạp ví chiết khấu', topic: 'pricing' as PolicyTopic },
                                 { label: 'Điều khoản sử dụng dịch vụ', topic: 'terms' as PolicyTopic },
