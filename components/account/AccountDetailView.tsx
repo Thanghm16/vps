@@ -676,12 +676,12 @@ export default function AccountDetailView({ account, relatedAccounts }: Props) {
           <div className="p-3.5 rounded-2xl bg-[#1b081a] border border-white/5 flex flex-col gap-2 text-xs text-pink-200/80">
             <div className="font-bold text-white flex items-center gap-1.5 text-xs">
               <Gift className="w-3.5 h-3.5 text-rose-400" />
-              <span>Đặc Quyền & Quà Tặng Kèm Theo</span>
+              <span>Cam Kết</span>
             </div>
             <ul className="flex flex-col gap-1.5 text-[11px] text-pink-200/70">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
-                <span>Bảo hiểm tài khoản 1 đổi 1 trong 30 ngày.</span>
+                <span>Acc Bán Ra Đúng Như Ảnh.</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
@@ -689,7 +689,7 @@ export default function AccountDetailView({ account, relatedAccounts }: Props) {
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
-                <span>Tặng Voucher giảm 10% cho đơn hàng tiếp theo.</span>
+                <span>Không Bán Acc Thông Tin Xấu.</span>
               </li>
             </ul>
           </div>
