@@ -646,7 +646,7 @@ export default function AccountFormModal({
                             <Select
                                 options={[
                                     { value: 'Trắng thông tin', label: 'Trắng thông tin (Chưa kích hoạt)' },
-                                    { value: 'Đã hủy liên kết', label: 'Đã hủy liên kết SĐT' },
+                                    { value: 'Đã hủy liên kết', label: 'Số Điện Thoại Chờ Đổi' },
                                 ]}
                             />
                         </Form.Item>
